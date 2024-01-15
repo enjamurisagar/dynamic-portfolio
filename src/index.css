@@ -1,13 +1,56 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  transition: ".3s";
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.app {
+  font-family: "Salsa";
+}
+
+.dateOfEducationRightLight {
+  color: #000;
+  margin-left: 20px;
+}
+.dateOfEducationRightDark {
+  color: #fff;
+  margin-left: 20px;
+}
+.dateOfEducationLeftLight {
+  color: #000;
+  margin-right: 20px;
+}
+.dateOfEducationLeftDark {
+  color: #fff;
+  margin-right: 20px;
+}
+
+/* .vertical-timeline-element-content .vertical-timeline-element-date {
+  display: block !important;
+} */
+/* @media only screen and (min-width: 768px) {
+  .vertical-timeline-element-content .vertical-timeline-element-date {
+    display: none !important;
+  }
+} */
+.vertical-timeline-element-content {
+  border-radius: 20px !important;
+}
+.vertical-timeline::before {
+  background-color: #7878d3 !important;
+}
+.vertical-timeline-element-content p {
+  margin: 0;
+  font-size: 15px;
+}
+
+@media only screen and (min-width: 768px) {
+  .vertical-timeline-element-content p {
+    font-size: 12px !important;
+    margin: 0 !important;
+  }
+}
+
+::selection {
+  background-color: #7878f3;
 }
