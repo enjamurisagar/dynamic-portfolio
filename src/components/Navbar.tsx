@@ -147,11 +147,7 @@ const Navbar = () => {
       </Box>
 
       {/* bottom */}
-      <a
-        href="../assets/Enjamuri Sagar - Resume.pdf"
-        download
-        className="resume-btn"
-      >
+      <a href="/Enjamuri Sagar - Resume.pdf" download className="resume-btn">
         <IoMdCloudDownload
           style={{
             fontSize: "25px",
