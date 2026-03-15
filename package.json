@@ -64,5 +64,8 @@
   "devDependencies": {
     "@types/react-slick": "^0.23.13",
     "@types/react-vertical-timeline-component": "^3.3.6"
+  },
+  "engines": {
+    "node": "24.x"
   }
 }
